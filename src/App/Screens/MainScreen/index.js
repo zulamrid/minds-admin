@@ -67,7 +67,7 @@ const Index = () => {
                     </ul>
                     {Main.active !== 'admin' ?
                         <div className="button-admin" onClick={() => dispatch(setActive('admin'))}>
-                            <img src={sidebar_ko.admin.logo_url} />
+                            <img src={sidebar_ko.admin.logo_purple} />
                             <span className="active-text">Admin</span>
                         </div>
                         :

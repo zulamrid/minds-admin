@@ -1,5 +1,6 @@
 import ReceptionistIcon from './../Assets/svg/receptionist.svg';
-import AdminIcon from './../Assets/svg/chrown.svg';
+import AdminIcon from './../Assets/svg/chrownwhite.svg';
+import AdminIconPurple from './../Assets/svg/chrown.svg';
 
 export const sidebar_en = {
     title: "AI Human",
@@ -11,6 +12,7 @@ export const sidebar_ko = {
     admin: {
         main_title: "Admin",
         logo_url: AdminIcon,
+        logo_purple: AdminIconPurple,
         child_label: [
             {
                 label: 'AI Human 관리',
