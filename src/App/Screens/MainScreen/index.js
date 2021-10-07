@@ -5,12 +5,24 @@ import {
     NavLink,
     HashRouter
 } from "react-router-dom";
-import { label_en, label_ko } from './../../Helper'
+import { sidebar_en, sidebar_ko } from './../../Helper';
+import { useSelector, useDispatch } from 'react-redux';
+
+import Navbar from '../../Components/Navbar/Navbar';
+import { ReactSVG } from 'react-svg';
 
 import './styles.css';
+import { setActive, setMenuActive } from '../../../Store/Main/main.action';
 
 const Index = () => {
 
+    const Main = useSelector(state => state.Main)
+    const menu_content = Main.active === 'admin' ? sidebar_ko.admin : sidebar_ko.receptionist
+    const dispatch = useDispatch()
+
+    React.useEffect(() => {
+        console.log(Main.menu_active)
+    }, [Main.active, Main.menu_active])
 
     const sideBarEvent = () => {
         document.querySelector(".sidebar").classList.toggle('open')
@@ -29,39 +41,38 @@ const Index = () => {
     return (
         <HashRouter>
             <div>
+                <Navbar />
                 <div className="sidebar open">
                     <div className="logo-details">
                         <i className='bx bxl-figma icon'></i>
-                        <div className="logo_name">{label_en.title} <br /> {label_ko.title}</div>
+                        <div className="logo_name">{sidebar_en.title} <br /> {sidebar_ko.title}</div>
                         <i className='bx bx-menu' id="btn" onClick={sideBarEvent}></i>
                     </div>
 
                     <div className="active-title">
-                        <span className="active-text">{label_ko.receptionist.main_title}</span>
+                        <img src={menu_content.logo_url} /> 
+                        <span className="active-text">{menu_content.main_title}</span>
                     </div>
 
                     <ul className="nav-list">
-                        {label_ko.receptionist.child_label.map((v, i) =>
-                            <li key={i}>
-                                <NavLink to={v.url}>
-                                 
+                        {menu_content.child_label.map((v, i) =>
+                            <li key={i} onClick={() => dispatch(setMenuActive(v.id))} >
+                                <NavLink to={v.url} className={Main.menu_active === v.id ? "active-menu" : "" }>
                                     <span className="links_name">{v.label}</span>
                                 </NavLink>
                                 <span className="tooltip">{v.label}</span>
                             </li>
                         )}
-                      
-                        {/* <li className="profile">
-                            <div className="profile-details">
-                                <img src="https://e7.pngegg.com/pngimages/529/336/png-clipart-swat-computer-icons-police-avatar-swat-police-officer-people-thumbnail.png" alt="profileImg" />
-                                <div className="name_job">
-                                    <div className="name">Administrator</div>
-                                    <div className="job"></div>
-                                </div>
-                            </div>
-                            <button><i className='bx bx-log-out' id="log_out" ></i></button>
-                        </li> */}
+
                     </ul>
+                    {Main.active !== 'admin' ?
+                        <div className="button-admin" onClick={() => dispatch(setActive('admin'))}>
+                            <img src={sidebar_ko.admin.logo_url} />
+                            <span className="active-text">Admin</span>
+                        </div>
+                        :
+                        <>
+                        </>}
                 </div>
                 <section className="home-section">
                     {/* <Route exact path="/" component={Trigatra} />

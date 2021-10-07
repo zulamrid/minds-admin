@@ -1,34 +1,71 @@
-export const label_en = {
-    title : "AI Human",
-    
+import ReceptionistIcon from './../Assets/svg/receptionist.svg';
+import AdminIcon from './../Assets/svg/chrown.svg';
+
+export const sidebar_en = {
+    title: "AI Human",
+
 }
 
-export const label_ko = {
-    title : "관리시스템",
+export const sidebar_ko = {
+    title: "관리시스템",
+    admin: {
+        main_title: "Admin",
+        logo_url: AdminIcon,
+        child_label: [
+            {
+                label: 'AI Human 관리',
+                url: '#',
+                id: 1
+            },
+            {
+                label: '그룹관리',
+                url: '#',
+                id: 2,
+            },
+        ]
+    },
     receptionist: {
         main_title: "Receptionist",
-        logo_url: "",
-        child_label : [
+        logo_url: ReceptionistIcon,
+        child_label: [
             {
-                label : '관리자',
-                url : '#',
+                label: '관리자',
+                url: '#',
+                id: 3
             },
             {
-                label : '시스템 관리',
-                url : '#',
+                label: '시스템 관리',
+                url: '#',
+                id: 4
             },
             {
-                label : '출입등록 관리',
-                url : '#',
+                label: '출입등록 관리',
+                url: '#',
+                id: 5
             },
             {
-                label : '대기화면 관리',
-                url : '#',
+                label: '대기화면 관리',
+                url: '#',
+                id: 6
             },
             {
-                label : '통계',
-                url : '#',
+                label: '통계',
+                url: '#',
+                id: 7
             },
         ]
     }
+}
+
+export const navbar = {
+    menu: [
+        {
+            label: 'Receptionist',
+            action: 'receptionist'
+        },
+        {
+            label: 'Attendant',
+            action: 'attendant'
+        }
+    ]
 }

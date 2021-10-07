@@ -40,6 +40,11 @@
 .sidebar.open .logo-details .logo_name {
     opacity: 1;
 }
+
+.nav-list{
+ margin-top: 20px;
+}
+
 .sidebar .logo-details #btn {
     position: absolute;
     top: 50%;
@@ -65,11 +70,18 @@
 }
 
 .sidebar .active-title{
+    display: flex;
+    flex-direction: row;
     height: 48px;
     margin-top: 38px;
-    padding: 14px 67px ;
+    padding: 14px 30px ;
     border-radius: 100px 0 0 100px;
     background-color: #f2c04f;
+}
+
+.sidebar .active-title img{
+    height: 20px;
+    margin: 0 0px 0 0;
 }
 
 .sidebar .active-title .active-text{
@@ -85,12 +97,9 @@
     color: #fff;
 }
 
-.sidebar .nav-list {
-    height: 100%;
-}
 .sidebar li {
     position: relative;
-    margin: 8px 0;
+    /* margin: 8px 0; */
     list-style: none;
 }
 .sidebar li .tooltip {
@@ -160,11 +169,19 @@
     text-decoration: none;
     transition: all 0.4s ease;
     margin-left: 24px;
-    padding: 12px 89px 12px 30px;
+    padding: 12px 0 12px 30px;
 }
+
 .sidebar li a:hover {
     background-color: rgba(0, 0, 0, 0.12);
 }
+
+.active-menu {
+    /* border-radius: 100px 0 0 100px; */
+    background-color: rgba(0, 0, 0, 0.12);
+
+}
+
 .sidebar li a .links_name {
     color: #fff;
     font-size: 14px;
@@ -264,4 +281,36 @@
     font-size: 25px;
     font-weight: 500;
     margin: 18px;
+}
+
+.button-admin{
+    display: flex;
+    flex-direction: row;
+    width: 192px;
+    height: 48px;
+    margin: 36px 24px 0 0;
+    padding: 14px 84px 14px 36px;
+    border-radius: 24px;
+    background-color: #f8f8fa;
+    cursor: pointer;
+}
+
+.button-admin img {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+    object-fit: contain;
+}
+
+.button-admin span{
+    font-family: "NanumSquare", sans-serif;
+    margin: 3px 0 1px 8px;
+    font-size: 14px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6852c9;
 }
