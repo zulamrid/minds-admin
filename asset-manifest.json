@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/minds-admin/static/css/main.7731b3ff.chunk.css",
-    "main.js": "/minds-admin/static/js/main.a55f678f.chunk.js",
-    "main.js.map": "/minds-admin/static/js/main.a55f678f.chunk.js.map",
+    "main.css": "/minds-admin/static/css/main.525303ff.chunk.css",
+    "main.js": "/minds-admin/static/js/main.205bca03.chunk.js",
+    "main.js.map": "/minds-admin/static/js/main.205bca03.chunk.js.map",
     "runtime-main.js": "/minds-admin/static/js/runtime-main.3f631ae7.js",
     "runtime-main.js.map": "/minds-admin/static/js/runtime-main.3f631ae7.js.map",
     "static/js/2.713540d2.chunk.js": "/minds-admin/static/js/2.713540d2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.005e0c95.chunk.js": "/minds-admin/static/js/3.005e0c95.chunk.js",
     "static/js/3.005e0c95.chunk.js.map": "/minds-admin/static/js/3.005e0c95.chunk.js.map",
     "index.html": "/minds-admin/index.html",
-    "static/css/main.7731b3ff.chunk.css.map": "/minds-admin/static/css/main.7731b3ff.chunk.css.map",
+    "static/css/main.525303ff.chunk.css.map": "/minds-admin/static/css/main.525303ff.chunk.css.map",
     "static/js/2.713540d2.chunk.js.LICENSE.txt": "/minds-admin/static/js/2.713540d2.chunk.js.LICENSE.txt",
     "static/media/chrown.4a6e9b30.svg": "/minds-admin/static/media/chrown.4a6e9b30.svg",
     "static/media/chrownwhite.e2abaa34.svg": "/minds-admin/static/media/chrownwhite.e2abaa34.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f631ae7.js",
     "static/js/2.713540d2.chunk.js",
-    "static/css/main.7731b3ff.chunk.css",
-    "static/js/main.a55f678f.chunk.js"
+    "static/css/main.525303ff.chunk.css",
+    "static/js/main.205bca03.chunk.js"
   ]
 }
