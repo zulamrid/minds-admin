@@ -1,0 +1,25 @@
+.input-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.label{
+    margin: 12px 24px 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #242734;
+}
+
+.input-container input{
+    margin: 0 0 0 24px;
+  border-radius: 20px;
+  border: solid 1px #e3e2f2;
+  background-color: #fff;
+  /* width: 80%; */
+}

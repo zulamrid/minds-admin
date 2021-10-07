@@ -16,13 +16,13 @@ export const sidebar_ko = {
         child_label: [
             {
                 label: 'AI Human 관리',
-                title : '관리자',
+                title : '이용자 목록',
                 url: '#',
                 id: 1
             },
             {
                 label: '그룹관리',
-                title : '관리자',
+                title : 'Group 목록',
                 url: '#',
                 id: 2,
             },
@@ -46,7 +46,7 @@ export const sidebar_ko = {
             },
             {
                 label: '출입등록 관리',
-                title : '관리자',
+                title : '출입등록 관리 목록',
                 url: '#',
                 id: 5
             },
@@ -89,4 +89,12 @@ export const receptionist_body = {
         staff : 'STAFF 관리자 정보',
         preview : '미리보기'
     }
+}
+
+export const form_label = {
+    logo : "Logo",
+    pin : "PIN code",
+    avatar : "Avatar",
+    button : "Button",
+    background : "Background",
 }

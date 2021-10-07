@@ -1,7 +1,10 @@
 import React from 'react';
+import './page2.css';
 import Header from '../../../Components/Header/Header';
 import Card from '../../../Components/Card/Card';
-import { receptionist_body } from '../../../Helper';
+import { receptionist_body, form_label } from '../../../Helper';
+import Upload from '../../../Components/Inputgroup/Upload/Upload';
+import Input from '../../../Components/Inputgroup/Input/Input';
 
 export default function Index() {
     return (
@@ -10,7 +13,15 @@ export default function Index() {
             <Card
                 title={receptionist_body.page2.basic}
             >
-                aaaa
+                <div className="body">
+                    <Upload
+                        label={form_label.logo}
+                    />
+                    <Input
+                        label={form_label.pin}
+                        placeholder=""
+                    />
+                </div>
             </Card>
 
             <Card
