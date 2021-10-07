@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/minds-admin/static/css/main.8e8f8cb3.chunk.css",
-    "main.js": "/minds-admin/static/js/main.66071221.chunk.js",
-    "main.js.map": "/minds-admin/static/js/main.66071221.chunk.js.map",
-    "runtime-main.js": "/minds-admin/static/js/runtime-main.2358a26f.js",
-    "runtime-main.js.map": "/minds-admin/static/js/runtime-main.2358a26f.js.map",
-    "static/js/2.da208866.chunk.js": "/minds-admin/static/js/2.da208866.chunk.js",
-    "static/js/2.da208866.chunk.js.map": "/minds-admin/static/js/2.da208866.chunk.js.map",
-    "static/js/3.a2eca605.chunk.js": "/minds-admin/static/js/3.a2eca605.chunk.js",
-    "static/js/3.a2eca605.chunk.js.map": "/minds-admin/static/js/3.a2eca605.chunk.js.map",
+    "main.css": "/minds-admin/static/css/main.7731b3ff.chunk.css",
+    "main.js": "/minds-admin/static/js/main.a55f678f.chunk.js",
+    "main.js.map": "/minds-admin/static/js/main.a55f678f.chunk.js.map",
+    "runtime-main.js": "/minds-admin/static/js/runtime-main.3f631ae7.js",
+    "runtime-main.js.map": "/minds-admin/static/js/runtime-main.3f631ae7.js.map",
+    "static/js/2.713540d2.chunk.js": "/minds-admin/static/js/2.713540d2.chunk.js",
+    "static/js/2.713540d2.chunk.js.map": "/minds-admin/static/js/2.713540d2.chunk.js.map",
+    "static/js/3.005e0c95.chunk.js": "/minds-admin/static/js/3.005e0c95.chunk.js",
+    "static/js/3.005e0c95.chunk.js.map": "/minds-admin/static/js/3.005e0c95.chunk.js.map",
     "index.html": "/minds-admin/index.html",
-    "static/css/main.8e8f8cb3.chunk.css.map": "/minds-admin/static/css/main.8e8f8cb3.chunk.css.map",
-    "static/js/2.da208866.chunk.js.LICENSE.txt": "/minds-admin/static/js/2.da208866.chunk.js.LICENSE.txt",
+    "static/css/main.7731b3ff.chunk.css.map": "/minds-admin/static/css/main.7731b3ff.chunk.css.map",
+    "static/js/2.713540d2.chunk.js.LICENSE.txt": "/minds-admin/static/js/2.713540d2.chunk.js.LICENSE.txt",
     "static/media/chrown.4a6e9b30.svg": "/minds-admin/static/media/chrown.4a6e9b30.svg",
     "static/media/chrownwhite.e2abaa34.svg": "/minds-admin/static/media/chrownwhite.e2abaa34.svg",
     "static/media/logo.6ce24c58.svg": "/minds-admin/static/media/logo.6ce24c58.svg",
     "static/media/receptionist.da1b0c6a.svg": "/minds-admin/static/media/receptionist.da1b0c6a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2358a26f.js",
-    "static/js/2.da208866.chunk.js",
-    "static/css/main.8e8f8cb3.chunk.css",
-    "static/js/main.66071221.chunk.js"
+    "static/js/runtime-main.3f631ae7.js",
+    "static/js/2.713540d2.chunk.js",
+    "static/css/main.7731b3ff.chunk.css",
+    "static/js/main.a55f678f.chunk.js"
   ]
 }
