@@ -12,7 +12,7 @@ export default function Header(props) {
                 <span className="header-tag">{title.label}</span>
             </div>
             <div className="title-container">
-                <span className="title">{title.label}</span>
+                <span className="title">{title.title}</span>
             </div>
         </div>
     )
