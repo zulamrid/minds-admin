@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.003" height="19.516">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="ico_receptionist_20px" transform="translate(-246 -565.317)">
+        <path id="패스_65" data-name="패스 65" class="cls-1" d="M256.4 573.2a3.944 3.944 0 0 0 3.944-3.944 3.944 3.944 0 0 0-7.889 0 3.945 3.945 0 0 0 3.945 3.944z" transform="translate(-.402)"/>
+        <rect id="사각형_44" data-name="사각형 44" class="cls-1" width="20.003" height="2.754" rx="1" transform="translate(246 582.079)"/>
+        <path id="패스_66" data-name="패스 66" class="cls-1" d="M262.452 577.6a2.817 2.817 0 0 0-2.817-2.817h-.564l-2.817 5.916-2.818-5.916h-.564a2.817 2.817 0 0 0-2.817 2.817v4.648h12.4z" transform="translate(-.253 -.59)"/>
+        <path id="패스_67" data-name="패스 67" class="cls-1" d="m255.755 577.992.319.571a.281.281 0 0 0 .243.144l.588.006a.281.281 0 0 0 .247-.139l.328-.562a.28.28 0 0 0 .032-.2l-.47-2.185h.039a.23.23 0 0 0 .231-.23v-.385a.23.23 0 0 0-.231-.23h-.9a.281.281 0 0 0-.281.281v.334a.229.229 0 0 0 .23.23h.064l-.471 2.169a.288.288 0 0 0 .032.196z" transform="translate(-.605 -.59)"/>
+    </g>
+</svg>
