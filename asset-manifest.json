@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mindslab-admin/static/css/main.35526108.chunk.css",
+    "main.js": "/mindslab-admin/static/js/main.bd453d13.chunk.js",
+    "main.js.map": "/mindslab-admin/static/js/main.bd453d13.chunk.js.map",
+    "runtime-main.js": "/mindslab-admin/static/js/runtime-main.98437fa4.js",
+    "runtime-main.js.map": "/mindslab-admin/static/js/runtime-main.98437fa4.js.map",
+    "static/js/2.f7eed77d.chunk.js": "/mindslab-admin/static/js/2.f7eed77d.chunk.js",
+    "static/js/2.f7eed77d.chunk.js.map": "/mindslab-admin/static/js/2.f7eed77d.chunk.js.map",
+    "static/js/3.d27eb23f.chunk.js": "/mindslab-admin/static/js/3.d27eb23f.chunk.js",
+    "static/js/3.d27eb23f.chunk.js.map": "/mindslab-admin/static/js/3.d27eb23f.chunk.js.map",
+    "index.html": "/mindslab-admin/index.html",
+    "static/css/main.35526108.chunk.css.map": "/mindslab-admin/static/css/main.35526108.chunk.css.map",
+    "static/js/2.f7eed77d.chunk.js.LICENSE.txt": "/mindslab-admin/static/js/2.f7eed77d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mindslab-admin/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98437fa4.js",
+    "static/js/2.f7eed77d.chunk.js",
+    "static/css/main.35526108.chunk.css",
+    "static/js/main.bd453d13.chunk.js"
+  ]
+}
