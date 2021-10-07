@@ -2,7 +2,7 @@ import { dispatch_action } from './main.helper';
 
 const initialState = {
     active: 'admin',
-    menu_active: 0,
+    menu_active: {},
 }
 
 const reducer = (state = initialState, action) => {

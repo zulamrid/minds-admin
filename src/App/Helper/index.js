@@ -37,7 +37,7 @@ export const sidebar_ko = {
             },
             {
                 label: '시스템 관리',
-                url: '#',
+                url: '/r.page2',
                 id: 4
             },
             {

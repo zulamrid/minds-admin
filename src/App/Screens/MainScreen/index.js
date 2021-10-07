@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { sidebar_en, sidebar_ko } from './../../Helper';
 import { useSelector, useDispatch } from 'react-redux';
+import { receptionistRoute } from './routelis';
 
 import Navbar from '../../Components/Navbar/Navbar';
 import { ReactSVG } from 'react-svg';
@@ -56,8 +57,8 @@ const Index = () => {
 
                     <ul className="nav-list">
                         {menu_content.child_label.map((v, i) =>
-                            <li key={i} onClick={() => dispatch(setMenuActive(v.id))} >
-                                <NavLink to={v.url} className={Main.menu_active === v.id ? "active-menu" : "" }>
+                            <li key={i} onClick={() => dispatch(setMenuActive(v))} >
+                                <NavLink to={v.url} className={Main.menu_active.id === v.id ? "active-menu" : "" }>
                                     <span className="links_name">{v.label}</span>
                                 </NavLink>
                                 <span className="tooltip">{v.label}</span>
@@ -75,6 +76,7 @@ const Index = () => {
                         </>}
                 </div>
                 <section className="home-section">
+                    <Route path="/r.page2" component={receptionistRoute.page2} />
                     {/* <Route exact path="/" component={Trigatra} />
                         <Route path="/pancagatra" component={Pancagatra} />
                         <Route path="/kalender" component={Kalender} />

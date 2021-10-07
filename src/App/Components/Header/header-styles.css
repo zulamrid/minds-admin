@@ -1,0 +1,35 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-tag{
+    padding: 4px 8px;
+    border-radius: 100px;
+    border: solid 1px #4f46b9;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f46b9;
+    font-family: "NanumSquare", sans-serif;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #252a36;
+    font-family: "NanumSquare", sans-serif;
+}
+
+.title-container{
+    margin: 12px 0 36px 0;
+}
